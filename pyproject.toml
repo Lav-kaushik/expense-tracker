@@ -1,0 +1,18 @@
+[project]
+name = "expense-tracker"
+version = "0.1.0"
+description = "Track you daily expenses with ease."
+authors = [
+    { name = "Lav Kaushik", email = "vvuthelav4796@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "fastapi>=0.121.3",
+    "passlib>=1.7.4",
+    "pymysql>=1.1.2",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]

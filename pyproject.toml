@@ -13,6 +13,7 @@ dependencies = [
     "passlib>=1.7.4",
     "pymysql>=1.1.2",
     "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
     "sqlalchemy>=2.0.44",
     "uvicorn>=0.38.0",
 ]

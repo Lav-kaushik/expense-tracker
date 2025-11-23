@@ -9,9 +9,9 @@ import os
 
 def get_current_user(db:Session = Depends(get_db) , token:str = Depends(oauth2_scheme)):
 
-    credential_exception = (
+    credential_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
-        details="Could Not Validate Credentials.",
+        detail="Could Not Validate Credentials."
     )
 
     try:
